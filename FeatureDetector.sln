@@ -1,22 +1,44 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FeatureDetector", "FeatureDetector\FeatureDetector.vcxproj", "{5AF4062D-386F-48AA-B824-2C10A4B1BA97}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{5AF4062D-386F-48AA-B824-2C10A4B1BA97}"
+	ProjectSection(ProjectDependencies) = postProject
+		{04FAF699-E563-4360-AEF0-4E115F3F0124} = {04FAF699-E563-4360-AEF0-4E115F3F0124}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FeatureDetector", "FeatureDetector\FeatureDetector.vcxproj", "{04FAF699-E563-4360-AEF0-4E115F3F0124}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
 		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5AF4062D-386F-48AA-B824-2C10A4B1BA97}.Debug|Win32.ActiveCfg = Debug|Win32
 		{5AF4062D-386F-48AA-B824-2C10A4B1BA97}.Debug|Win32.Build.0 = Debug|Win32
+		{5AF4062D-386F-48AA-B824-2C10A4B1BA97}.Debug|x64.ActiveCfg = Debug|x64
+		{5AF4062D-386F-48AA-B824-2C10A4B1BA97}.Debug|x64.Build.0 = Debug|x64
 		{5AF4062D-386F-48AA-B824-2C10A4B1BA97}.Release|Win32.ActiveCfg = Release|Win32
 		{5AF4062D-386F-48AA-B824-2C10A4B1BA97}.Release|Win32.Build.0 = Release|Win32
+		{5AF4062D-386F-48AA-B824-2C10A4B1BA97}.Release|x64.ActiveCfg = Release|x64
+		{5AF4062D-386F-48AA-B824-2C10A4B1BA97}.Release|x64.Build.0 = Release|x64
+		{04FAF699-E563-4360-AEF0-4E115F3F0124}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04FAF699-E563-4360-AEF0-4E115F3F0124}.Debug|Win32.Build.0 = Debug|Win32
+		{04FAF699-E563-4360-AEF0-4E115F3F0124}.Debug|x64.ActiveCfg = Debug|x64
+		{04FAF699-E563-4360-AEF0-4E115F3F0124}.Debug|x64.Build.0 = Debug|x64
+		{04FAF699-E563-4360-AEF0-4E115F3F0124}.Release|Win32.ActiveCfg = Release|Win32
+		{04FAF699-E563-4360-AEF0-4E115F3F0124}.Release|Win32.Build.0 = Release|Win32
+		{04FAF699-E563-4360-AEF0-4E115F3F0124}.Release|x64.ActiveCfg = Release|x64
+		{04FAF699-E563-4360-AEF0-4E115F3F0124}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04BBFD39-DEBF-4F9C-BCE1-7955B98884CB}
 	EndGlobalSection
 EndGlobal
